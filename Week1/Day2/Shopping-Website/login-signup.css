@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	font-family: 'Sansita Swashed';
+}
+
+body  {
+	background-color: black;
+	font-size: 21px;
+	color: white;
+}	
+	
+
+.logo {
+	width: 50px;
+	height: 60px;
+	position: absolute;
+  	top: 0px;
+  	border-width: 0;
+  	left: 3px;
+}
+
+nav  {
+	text-align: center;
+	background-color: gold;
+	padding: 20px;
+	padding-right: 0;
+	padding-left: 48px;
+
+}
+
+ul {
+	padding: 0;
+	padding-right: 0;
+}
+
+
+li {
+	display: inline;
+	padding: 20px;
+}
+
+a {
+	color: grey;
+	text-decoration: none;
+	padding: 0;
+}
+
+ul li:hover {
+	background-color: black;
+
+}
+
+header {
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+
+
+form {
+	text-align: center;
+	color: grey;
+	background-color: gold;
+	margin-top: 90px;
+	margin-right: 90px;
+	margin-left: 90px;
+	padding: 20px;
+
+}
+
+
+footer {   
+	color: grey;
+   	position:absolute;
+   	left:0px;
+   	bottom:0px;
+   	height:25px;
+   	width:100%;
+   	background:gold;
+}
+
