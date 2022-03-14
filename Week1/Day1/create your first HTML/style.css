@@ -1,0 +1,59 @@
+#breeds {
+	background-color: yellow;
+}
+
+#senses {
+	text-decoration: underline;
+}
+
+li {
+	position: relative;
+	left: 50px;
+}
+
+ol {
+	list-style-type: upper-roman ;
+
+}
+
+.media {
+	text-align: center;
+}
+
+.cat,.lion {
+	width: 300px;
+	height: 200px;
+	border: solid 5px lightcoral;
+
+
+}
+
+.difference {
+	color: red;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+th,td {
+	border: solid;
+
+}
+
+td {
+	padding: 20px;
+}
+
+.lionpic {
+	margin: 100px;
+	text-align: center;
+}
+
+
+
+
+
+
