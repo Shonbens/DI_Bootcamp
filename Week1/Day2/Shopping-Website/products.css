@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	font-family: 'Sansita Swashed';
+}
+
+body  {
+	background-color: black;
+	font-size: 21px;
+	color: white;
+}	
+	
+
+.logo {
+	width: 50px;
+	height: 60px;
+	position: absolute;
+  	top: 0px;
+  	border-width: 0;
+  	left: 3px;
+}
+
+nav  {
+	text-align: center;
+	background-color: gold;
+	padding: 20px;
+	padding-right: 0;
+	padding-left: 52px;
+
+}
+
+ul {
+	padding: 0;
+	padding-right: 0;
+}
+
+
+li {
+	display: inline;
+	padding: 20px;
+}
+
+a {
+	color: grey;
+	text-decoration: none;
+	padding: 0;
+}
+
+ul li:hover {
+	background-color: black;
+
+}
+
+header {
+	text-align: center;
+	margin-top: 20px;
+}
+
+span {
+	text-decoration: underline;
+}
+
+article {
+	text-align: center;
+}
+
+img {
+	width: 250px;
+	height: 250px;
+	border: solid gold 3px;
+	margin-bottom: 20px;
+}	
+
+button {
+	background-color: gold;
+	color: grey;
+	margin-bottom: 20px;
+}
+
+button:hover {
+	background-color: white;
+}
+
+
+footer {   
+	color: grey;
+   	margin-top: 20px;
+   	position:relative;
+   	left:0px;
+   	bottom:0px;
+   	height:25px;
+   	width:100%;
+   	background:gold;
+}
