@@ -1,0 +1,80 @@
+body {
+	font-family: verdana;
+	background-color: grey;
+
+}
+
+header {
+	background-color: lightgrey;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.name {
+	background-color: silver;
+	display: flex;
+	width: 200px;
+	font-size: 30px;
+}
+
+.pic {
+	display: flex;
+	width: 200px;
+	height: 200px;
+	border: solid silver 5px;
+
+}
+
+.main {
+	background-color: lightgrey;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+h1 {
+	text-decoration: underline;
+}
+
+article {
+	background-color: silver;
+	width: 300px;
+	height: 420px;
+}
+
+.sidebar {
+	width: 300px;
+	height: 420px;
+	background-color: silver;
+	margin-bottom: 10px;
+
+
+}
+
+.sublist {
+	list-style: square;
+}
+
+@media all and (min-width: 768px) {
+
+	header	{
+		justify-content: center;
+	}
+	.main {
+		justify-content: center;
+	}
+	.name {
+		width: 388px;
+		align-items: center;
+	}
+	.sidebar {
+		
+	}
+	article {
+
+	}
+}
+
+
+
