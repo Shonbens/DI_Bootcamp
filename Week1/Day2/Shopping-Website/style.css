@@ -22,15 +22,18 @@ body  {
 nav  {
 	text-align: center;
 	background-color: gold;
-	padding: 20px;
+	padding: 30px;
 	padding-right: 0;
 	padding-left: 52px;
+	position: relative;
 
 }
 
 ul {
-	padding: 0;
-	padding-right: 0;
+	margin-top: 15px;
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 
 
