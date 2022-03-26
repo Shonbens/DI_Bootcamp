@@ -133,6 +133,69 @@ function rentalCarCost () {
 
 //rentalCarCost()
 
+function hotelCost () {
+	let numberNights;
+	
+	do {
+	 numberNights = +prompt("How many nights will you stay");
+}
+	while(isNaN(numberNights) || numberNights < 0);
+
+	let PriceForTotalNights = 140*numberNights;
+	return PriceForTotalNights;
+}
+
+
+function planeRideCost () {
+	let destination=prompt("What is your destination?")
+
+	//if (destination === "" || !isNaN(typeof(Number(destination))) {
+		//do {
+			//destination=+prompt("What is your destination?")
+		//} while(!isNaN)
+
+	//}
+
+	let priceDestination;
+
+	switch(destination) {
+		case "London":
+			priceDestination = 183;
+		break;
+		case "Paris":
+			priceDestination = 220;
+		break;
+		default :
+			priceDestination = 300;
+
+	}
+	return priceDestination
+	
+}
+
+function rentalCarCost () {
+	let numerDays = 2;
+	let costCar = numberDays*40
+
+	if (numberDays >= 10) {
+		costCar -= costCar*0.05;
+	}
+	return costCar
+}
+
+
+function totalVacationCost () {
+	let costHotel = hotelCost ();
+	let costPlane = planeRideCost();
+	let costCar = rentalCarCost()
+	console.log(`The hotel costs ${costHotel} The Plane cost ${costPlane} The car costs ${costCar}`)
+
+	let total = carcost + costPlane + costHotel
+}
+
+totalVacationCost()
+
+
 
 
 
