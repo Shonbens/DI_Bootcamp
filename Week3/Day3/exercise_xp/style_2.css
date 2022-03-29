@@ -1,0 +1,45 @@
+* {
+	box-sizing: border-box;
+	outline: 0;
+}
+
+section {
+	display:  flex;
+	justify-content: center;
+	align-items: center;
+	gap : 0px;
+	margin-top:  50px;
+}
+
+.dropzone {
+	width : 200px;
+	height:  200px;
+	display:  flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.zone {
+	border:  2px solid black;
+}
+
+.dragover {
+	border:  5px solid yellow;
+}
+
+
+.item {
+	width : 200px;
+	height:  200px;
+	padding:  2px;
+}
+
+.draggedItem {
+	border:  8px solid yellow;
+	background-color: black;
+}
+
+.startDragging {
+	border:  8px solid yellow;
+	background-color: black;
+}
