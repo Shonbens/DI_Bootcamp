@@ -4,47 +4,46 @@ win = 0
 loss = 0
 draw = 0
 
-#create a list of play options
+# create a list of play options
 t = ["rock", "paper", "scissors"]
 
-#assign a random play to the computer
-computer = t[randint(0,2)]
+# assign a random play to the computer
+computer = t[randint(0, 2)]
 
-#set player to False
-player = False
-
-while player == False:
-
+while True:
     player = input("rock, paper, scissors? Type x to quit")
+    winning = f"You chose: {player}, computer chose: {computer} Result: W"
+    loosing = f"You chose: {player}, computer chose: {computer} Result: L"
+    drawing = f"You chose: {player}, computer chose: {computer} Result: draw"
     if player == computer:
-        print(f"You chose: {player}, computer chose: {computer} Result: draw")
+        print(drawing)
         draw += 1
         player = False
     elif player == "rock":
         if computer == "paper":
-            print(f"You chose: {player}, computer chose: {computer} Result: L")
+            print(loosing)
             loss += 1
             player = False
         else:
-            print(f"You chose: {player}, computer chose: {computer} Result: W")
+            print(winning)
             win += 1
             player = False
     elif player == "paper":
         if computer == "scissors":
-            print(f"You chose: {player}, computer chose: {computer} Result: L")
+            print(loosing)
             loss += 1
             player = False
         else:
-            print(f"You chose: {player}, computer chose: {computer} Result: W")
+            print(winning)
             win += 1
             player = False
     elif player == "scissors":
         if computer == "rock":
-            print(f"You chose: {player}, computer chose: {computer} Result: L")
+            print(loosing)
             loss += 1
             player = False
         else:
-            print(f"You chose: {player}, computer chose: {computer} Result: W")
+            print(winning)
             win += 1
             player = False
     elif player == "x":
@@ -52,9 +51,9 @@ while player == False:
         print(f"you lost {loss} times")
         print(f"you drew {draw} times")
         print("thanks for playing!")
+        break
     else:
         print("incorrect type")
         player = False
 
-    computer = t[randint(0,2)]
-
+    computer = t[randint(0, 2)]
