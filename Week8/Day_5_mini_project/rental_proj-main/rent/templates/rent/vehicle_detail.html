@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<ul>
+ 
+    <li>type {{object.vehicle_type}}</li>
+    <li>size {{object.vehicle_size}}</li>
+    <li>cost {{object.date_created}}</li>
+    <img src='{{ object.image }}'>
+    
+</ul>
+{% endblock %}
